@@ -428,7 +428,7 @@ The nomenclature in the codebase and in the paper are a bit different. We provid
 * EBT_GRC == EBT-GRC
 * EBT_GRC_noslice == EBT-GRC (-slice)  
 * EBT_GRC512 == EBT-GRC (512)
-* EBT_GRC512 == EBT-GRC (-slice,512)
+* EBT_GRC512_noslice == EBT-GRC (-slice,512)
 * GAU_IN == GAU
 * EGT_GAU_IN == EBT-GAU
 * EBT_GAU_IN == EBT-GAU
