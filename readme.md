@@ -446,6 +446,55 @@ The nomenclature in the codebase and in the paper are a bit different. We provid
 * HEBT_GRC_chunk10 == RIR-EBT-GRC (chunk 10)
 * MEGA == MEGA
 
+### Citations:
 
+```
+@InProceedings{pmlr-v139-chowdhury21a,
+  title = 	 {Modeling Hierarchical Structures with Continuous Recursive Neural Networks},
+  author =       {Chowdhury, Jishnu Ray and Caragea, Cornelia},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {1975--1988},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/chowdhury21a/chowdhury21a.pdf},
+  url = 	 {http://proceedings.mlr.press/v139/chowdhury21a.html},
+  abstract = 	 {Recursive Neural Networks (RvNNs), which compose sequences according to their underlying hierarchical syntactic structure, have performed well in several natural language processing tasks compared to similar models without structural biases. However, traditional RvNNs are incapable of inducing the latent structure in a plain text sequence on their own. Several extensions have been proposed to overcome this limitation. Nevertheless, these extensions tend to rely on surrogate gradients or reinforcement learning at the cost of higher bias or variance. In this work, we propose Continuous Recursive Neural Network (CRvNN) as a backpropagation-friendly alternative to address the aforementioned limitations. This is done by incorporating a continuous relaxation to the induced structure. We demonstrate that CRvNN achieves strong performance in challenging synthetic tasks such as logical inference (Bowman et al., 2015b) and ListOps (Nangia &amp; Bowman, 2018). We also show that CRvNN performs comparably or better than prior latent structure models on real-world tasks such as sentiment analysis and natural language inference.}
+}
+```
 
+```
+@InProceedings{Chowdhury2023beam,
+  title = 	 {Beam Tree Recursive Cells},
+  author =       {Ray Chowdhury, Jishnu and Caragea, Cornelia},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  year = 	 {2023}
+}
+```
 
+```
+@inproceedings{
+chowdhury2023efficient,
+title={Efficient Beam Tree Recursion},
+author={Jishnu Ray Chowdhury and Cornelia Caragea},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=PR5znB6BZ2}
+}
+```
+
+```
+@inproceedings{
+chowdhury2023recursion,
+title={Recursion in Recursion: Two-Level Nested Recursion for Length Generalization with Scalability},
+author={Jishnu Ray Chowdhury and Cornelia Caragea},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=o6yTKfdnbA}
+}
+```
+
+For any issues contact: jishnu.ray.c@gmail.com
